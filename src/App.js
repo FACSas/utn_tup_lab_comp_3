@@ -1,7 +1,7 @@
 import './App.css';
 import Menu from './Menu';
 import MainContent from './MainContent';
-import { MenuProvider } from './practica_5/MenuContext';
+import { MenuProvider } from './practica_5/Contexto';
 
 function App() {
   
