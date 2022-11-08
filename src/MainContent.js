@@ -10,10 +10,10 @@ export default function MainContent () {
 
     return (
         <main>
-            { selected === 'practica_1' && <Practica1 /> }
-            { selected === 'practica_2' && <Practica2 /> }
-            { selected === 'practica_3' && <Practica3 /> }
-            { selected === 'practica_4' && <Practica4 /> }
+            { selected === '1' && <Practica1 /> }
+            { selected === '2' && <Practica2 /> }
+            { selected === '3' && <Practica3 /> }
+            { selected === '4' && <Practica4 /> }
         </main>
     );
 }
