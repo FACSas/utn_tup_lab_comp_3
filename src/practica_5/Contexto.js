@@ -1,9 +1,11 @@
-import { createContext, useState } from "react";
+import React from 'react';
+import {useState } from 'react'
+import {createContext} from 'react'
 
 const Contexto = createContext();
 
-const MenuProvider = ({ children }) => {
-  
+export const MenuProvider = ({ children }) => {
+
     const [selected, setselected] = useState('1');
 
     const selectedHandle = (e) => {
@@ -11,8 +13,9 @@ const MenuProvider = ({ children }) => {
     }
 
     const data = {selected, selectedHandle}
-  return <Contexto.Provider value={data}>{children}</Contexto.Provider>;
+  return (
+    <Contexto.Provider value={data}>{children}</Contexto.Provider>
+  )
 };
 
-export { MenuProvider };
 export default Contexto;
