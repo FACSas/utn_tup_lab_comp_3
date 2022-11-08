@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/utn_tup_lab_comp_3/static/css/main.972cd01e.css",
+    "main.js": "/utn_tup_lab_comp_3/static/js/main.c1aaa987.js",
+    "index.html": "/utn_tup_lab_comp_3/index.html",
+    "main.972cd01e.css.map": "/utn_tup_lab_comp_3/static/css/main.972cd01e.css.map",
+    "main.c1aaa987.js.map": "/utn_tup_lab_comp_3/static/js/main.c1aaa987.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.972cd01e.css",
+    "static/js/main.c1aaa987.js"
+  ]
+}
