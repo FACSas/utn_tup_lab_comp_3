@@ -1,9 +1,9 @@
 import { useContext } from "react";
-import MenuContext from "./practica_5/MenuContext";
+import Contexto from "./practica_5/Contexto";
 
 export default function Menu () {
 
-    const {selected, selectedHandle} = useContext(MenuContext);
+    const {selected, selectedHandle} = useContext(Contexto);
 
     return (
         <>
