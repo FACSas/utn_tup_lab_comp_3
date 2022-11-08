@@ -1,10 +1,12 @@
-import React from "react";
-import { useContext } from "react";
-import Contexto from "./practica_5/Contexto";
+import React from "react"
+import { useContext } from "react"
+import Contexto from "./practica_5/Contexto"
 
 const Menu = () => {
 
     const {selected, selectedHandle} = useContext(Contexto);
+
+    console.log("Practica seleccionada " + selected);
 
     return (
         <>
