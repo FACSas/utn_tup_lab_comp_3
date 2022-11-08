@@ -13,9 +13,10 @@ export const MenuProvider = ({ children }) => {
     }
 
     const data = {selected, selectedHandle}
+
   return (
-    <Contexto.Provider value={data}>{children}</Contexto.Provider>
+    <Contexto.Provider value={data} >{children}</Contexto.Provider>
   )
 };
 
-export default Contexto;
+export default { Contexto };
