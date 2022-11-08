@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const LogicGate = ({ resultinput1, resultinput2, takeResultHandler }) => {
-  const [selected, setSelected] = useState(0);
+  const [selected, setSelected] = useState("0");
   const [result, setResult] = useState(0);
 
   const selectHandler = (e) => {
