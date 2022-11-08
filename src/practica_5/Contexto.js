@@ -19,4 +19,4 @@ export const MenuProvider = ({ children }) => {
   )
 };
 
-export default { Contexto };
+export default  Contexto ;
